@@ -37,6 +37,23 @@
       "addinFileUrl": "https://github.com/asantarelli/ClarionFormatter/releases/download/v2.1.1/ClarionWindowFormatter.addin",
       "homepageUrl": "https://github.com/asantarelli/ClarionFormatter",
       "changelogUrl": "https://github.com/asantarelli/ClarionFormatter/blob/master/CHANGELOG.md"
+    },
+    {
+      "id": "SelectiveBuild",
+      "name": "Selective Build",
+      "description": "Builds only the apps you pick from a multi-DLL Clarion solution instead of the whole solution. A dockable pad lists the solution's Clarion apps; for each selected app it runs ClarionCL (/ag, source generation) and then MSBuild on the .cwproj, streaming both outputs to a log. Build order matches the IDE's Project Dependency Editor (.cwproj ProjectReferences, .sln ProjectDependencies and declaration order). Apps open in the IDE are skipped, since ClarionCL needs exclusive access. Runs locally only; nothing is sent over the network.",
+      "author": "asantarelli",
+      "authorUrl": "https://github.com/asantarelli",
+      "license": "MIT",
+      "category": "Build",
+      "version": "1.1.3",
+      "targetFramework": "net40",
+      "downloadUrls": [
+        "https://github.com/asantarelli/SelectiveBuild/releases/download/v1.1.3/SelectiveBuild.dll"
+      ],
+      "addinFileUrl": "https://github.com/asantarelli/SelectiveBuild/releases/download/v1.1.3/SelectiveBuild.addin",
+      "homepageUrl": "https://github.com/asantarelli/SelectiveBuild",
+      "changelogUrl": "https://github.com/asantarelli/SelectiveBuild/blob/master/CHANGELOG.md"
     }
   ]
 }
