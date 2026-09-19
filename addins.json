@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "publisher": "asantarelli",
+  "name": "Adrián Santarelli",
+  "updated": "2026-09-19",
+  "addins": [
+    {
+      "id": "ClarionTransformer",
+      "name": "Clarion Transformer",
+      "description": "Transforms Clarion code using Claude AI (Anthropic API). Takes the selected code block in the editor — or the active PROCEDURE if nothing is selected — and applies a user-defined protocol file (.md). Ships two fixed menu commands, each bound to its own profile: 'Transform to ABC' (legacy file I/O to ABC migration) and 'Refactor' (cleanup of existing ABC code). Supports per-profile Old/New code backups, optional explanatory comments, and configurable re-indentation. Sends the selected code and the protocol file to the Anthropic API using your own API key.",
+      "author": "asantarelli",
+      "authorUrl": "https://github.com/asantarelli",
+      "license": "MIT",
+      "category": "Editor",
+      "version": "1.0.0",
+      "targetFramework": "net472",
+      "downloadUrls": [
+        "https://github.com/asantarelli/ClarionTransformer/releases/download/v1.0.0/ClarionTransformer.dll"
+      ],
+      "addinFileUrl": "https://github.com/asantarelli/ClarionTransformer/releases/download/v1.0.0/ClarionTransformer.addin",
+      "homepageUrl": "https://github.com/asantarelli/ClarionTransformer",
+      "changelogUrl": "https://github.com/asantarelli/ClarionTransformer/blob/main/CHANGELOG.md"
+    },
+    {
+      "id": "ClarionFormatter",
+      "name": "Clarion Formatter",
+      "description": "Reformats Clarion WINDOW blocks using Claude AI (Anthropic API). Formatting rules are configured per control type (coordinates, heights, widths, colors, tooltips, free-text rules) with a built-in Clarion Protocol v2.5 preset, and applied directly in the editor in two passes: format, then verify against the rules. Supports multiple profiles, one per project. Sends the active WINDOW block and the profile rules to the Anthropic API using your own API key; no other code leaves the machine.",
+      "author": "asantarelli",
+      "authorUrl": "https://github.com/asantarelli",
+      "license": "MIT",
+      "category": "Editor",
+      "version": "2.1.0",
+      "targetFramework": "net472",
+      "downloadUrls": [
+        "https://github.com/asantarelli/ClarionFormatter/releases/download/v2.1.0/ClarionWindowFormatter.dll"
+      ],
+      "addinFileUrl": "https://github.com/asantarelli/ClarionFormatter/releases/download/v2.1.0/ClarionWindowFormatter.addin",
+      "homepageUrl": "https://github.com/asantarelli/ClarionFormatter",
+      "changelogUrl": "https://github.com/asantarelli/ClarionFormatter/blob/master/CHANGELOG.md"
+    }
+  ]
+}
